@@ -1,0 +1,24 @@
+baseURL = 'https://msisovic.github.io/'
+languageCode = 'en-us'
+title = "Marko's Blog"
+theme = 'PaperMod'
+
+[params]
+  description = "Marko's personal blog"
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+
+  [params.author]
+    name = 'Marko Sisovic'
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Marko"
+    Content = 'Welcome to my blog.'
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+
+[caches.images]
+  dir = ':cacheDir/images'
